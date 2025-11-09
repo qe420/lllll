@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.intro, .projects {
+  padding: 2rem;
+}
+
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #6200ea;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+/* Tema escuro */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark header {
+  background-color: #3700b3;
+}
+
+body.dark .project-card {
+  background-color: #1e1e1e;
+  border-left-color: #bb86fc;
+}
+
+body.dark footer {
+  background-color: #1e1e1e;
+}
+.diego {
+  height: 20dvh;
+}
+.JS {
+  height: 10dvh;
+}
